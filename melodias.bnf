@@ -1,0 +1,12 @@
+# melodias
+<frase> ::=<motivo><frase>
+<motivo> ::=<nota> |<nota><nota><silencio>|<triada>|<pentacordioa>|<pentacordiod>|
+<triada> ::=C<duracion>E<duracion>G<duracion>|F<duracion>A<duracion>C<duracion>|G<duracion>B<duracion>D<duracion>
+<nota> ::=<altura><duracion>|<altura><duracion>
+<pentacordioa> ::=C<duracion>D<duracion>E<duracion>F<duracion>G<duracion>
+<pentacordiod> ::=G<duracion>F<duracion>E<duracion>D<duracion>C<duracion>
+#<altura> ::=C|D|E|F|G|A|B
+<altura> ::=C|C#|D|D#|E|F|F#|G|G#|A|A#|B
+#<altura> ::=C|Db|D|Eb|E|F|Gb|G|Ab|A|Bb|B
+<duracion> ::=i|q|h|t
+<silencio> ::=R<duracion>
